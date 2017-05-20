@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jupiter/ComputerSystemsProjects/CityData/cities.h
+stdio.h
+-
+ctype.h
+-
+string.h
+-
+
+/home/jupiter/ComputerSystemsProjects/CityData/computations.c
+cities.h
+/home/jupiter/ComputerSystemsProjects/CityData/cities.h
+
+/home/jupiter/ComputerSystemsProjects/CityData/io.c
+cities.h
+/home/jupiter/ComputerSystemsProjects/CityData/cities.h
+
+/home/jupiter/ComputerSystemsProjects/CityData/main.c
+cities.h
+/home/jupiter/ComputerSystemsProjects/CityData/cities.h
+
